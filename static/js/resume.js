@@ -9,12 +9,8 @@
            )
            document.querySelector('head').appendChild(msViewportStyle)
        }
-   })();
-   var main = function () {
-       $('.dropdown-toggle').click(function () {
-           $('.dropdown-menu').toggle();
-       });
-   }
+   });
+
 
    $(window).scroll(function () {
        if ($(document).scrollTop() > 50) {
@@ -140,13 +136,5 @@
 
 
            }
-           var main = function () {
-                   $('.dropdown-toggle').click(function () {
-                       $('.dropdown-menu').toggle();
-                   });
 
-
-                   /* <script src="/6:28/app.js"></script>
-                    */
-
-                   $(document).ready(main);
+           $(document).ready(main);
