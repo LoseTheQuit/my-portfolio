@@ -4,7 +4,8 @@ var colors = require('colors');
 var express = require('express');
 var app = express();
 
-app.use(express.static('static'));
+app.use(express.static(__dirname + 'static'));
+app.use('/bower_components', express.static(__dirname + '/bower_components'));
 
 app.set('port', (process.env.PORT || 5000));
 
