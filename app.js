@@ -4,7 +4,7 @@ var colors = require('colors');
 var express = require('express');
 var app = express();
 
-app.use(express.static(__dirname + 'static'));
+app.use(express.static('static'));
 app.use('/bower_components', express.static(__dirname + '/bower_components'));
 
 app.set('port', (process.env.PORT || 5000));
@@ -12,7 +12,7 @@ app.set('port', (process.env.PORT || 5000));
 app.get('/', function (req, res) {
 
     console.log('INCOMING GET REQUEST - Load Template');
-    var html = fs.readFileSync('views/index.html');
+    var html = fs.readFileSync('static/views/index.html');
     res.end(html);
 
 });
