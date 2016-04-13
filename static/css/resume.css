@@ -6162,6 +6162,7 @@ text .section.section-herpero .outer {
 
 .section.section-showcase .box .info dl,
 .section.section-showcase .box .info p {
+    font-size: 19px;
     margin-top: 0.5em;
     opacity: 0;
     -webkit-transition: transform 0.3s, opacity 0.3s;
