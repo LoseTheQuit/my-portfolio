@@ -5898,7 +5898,7 @@ text .section.section-herpero .outer {
 
 @media (min-width: 192px) {
     .section.section-hero .outer {
-        background-image: url('header-base-desk-3.jpg');
+        background-image: url('../img/header-base-desk-3.jpg');
         background-position: 50% 60%;
         overflow: hidden;
         background-size: auto 100%;
@@ -5916,7 +5916,7 @@ text .section.section-herpero .outer {
     .section.section-hero .outer .inner {
         -webkit-animation: groove 10s infinite alternate ease-in-out;
         animation: groove 10s infinite alternate ease-in-out;
-        background: url('header-overlay-rezzed-3.png') 50% 0 no-repeat;
+        background: url('../img/header-overlay-rezzed-3.png') 50% 0 no-repeat;
         background-size: auto 100%;
         margin: 0 -10px;
         height: 100vh;
@@ -6243,10 +6243,10 @@ text .section.section-herpero .outer {
     width: 100%;
     height: 100%;
     /*
-    background: url("/img/iStockLarge-showcase.jpg") no-repeat center center;
+   
     background: url("http://losethequit.com/iStockLarge-showcase.jpg") no-repeat center center;
     background-size: cover;
-*/
+    */
 }
 
 .section.section-showcase .showcase-mindsteps {
@@ -6269,7 +6269,7 @@ text .section.section-herpero .outer {
 
 .section.section-showcase .showcase-shirts {
     background-color: #093655;
-    background-image: url('showcase-apartment.png');
+    background-image: url('../img/showcase-apartment.png');
     background-size: 90% auto;
 }
 
@@ -6281,13 +6281,13 @@ text .section.section-herpero .outer {
 
 .section.section-showcase .showcase-phone {
     background-color: #888b82;
-    background-image: url('showcase-baker.png');
+    background-image: url('../img/showcase-baker.png');
     background-size: 80% auto;
 }
 
 .section.section-showcase .showcase-overvio {
     background-color: #f9b500;
-    background-image: url('showcase-retail.png');
+    background-image: url('../img/showcase-retail.png');
     background-size: 80% auto;
 }
 
@@ -6298,7 +6298,7 @@ text .section.section-herpero .outer {
 }
 
 .section.section-showcase .showcase-apg {
-    background-image: url('showcase-bbq.png');
+    background-image: url('../img/showcase-bbq.png');
     background-size: cover;
 }
 
