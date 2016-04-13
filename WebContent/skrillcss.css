@@ -1,0 +1,275 @@
+/*
+ * Globals
+ */
+/* Links */
+a, a:focus, a:hover {
+	color: black;
+	background: transparent;
+}
+/* Custom default button */
+.btn-default, .btn-default:hover, .btn-default:focus {
+	color: #333;
+	text-shadow: none;
+	/* Prevent inheritence from `body` */
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+/*
+ * Base structure
+ */
+html, body {
+	height: 100%;
+	background-color: white;
+}
+
+body {
+	color: black;
+	background-size: 100% auto;
+	vertical-align: top;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+/* make #my-button green with yellow text */
+.navbar-top {
+	background: transparent;
+	text-decoration-color: red;
+}
+
+paper-button.colored {
+	color: #4285f4;
+}
+
+paper-button[raised].colored {
+	background: #fff;
+	color: #000;
+}
+
+.site-wrapper {
+	display: table;
+	width: 100%;
+	height: 100%;
+	background-image: url('/raw/photos/DSC_0086.jpg');
+	/* For at least Firefox */
+	background-size: 100% auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 100%;
+	-webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+	box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+}
+
+.site-wrapper-inner {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.cover-container {
+	margin-right: auto;
+	margin-left: auto;
+}
+/* Padding for spacing */
+.inner {
+	padding: 30px;
+}
+/*
+ * Header
+ */
+.masthead-brand {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.masthead-nav>li {
+	display: inline-block;
+}
+
+.masthead-nav>li+li {
+	margin-left: 20px;
+}
+
+.masthead-nav>li>a {
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	/* IE8 proofing */
+	color: rgba(255, 255, 255, .75);
+	border-bottom: 2px solid transparent;
+}
+
+.masthead-nav>li>a:hover, .masthead-nav>li>a:focus {
+	background-color: transparent;
+	border-bottom-color: #a9a9a9;
+	border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.masthead-nav>.active>a, .masthead-nav>.active>a:hover, .masthead-nav>.active>a:focus
+	{
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+@media ( min-width : 768px) {
+	.masthead-brand {
+		float: left;
+	}
+	.masthead-nav {
+		float: right;
+	}
+}
+/*
+ * Cover
+ */
+.cover {
+	padding: 0 20px;
+}
+
+.cover .btn-lg {
+	padding: 10px 20px;
+	font-weight: bold;
+}
+/*
+ * Footer
+ */
+.mastfoot {
+	color: #999;
+	/* IE8 proofing */
+	color: rgba(255, 255, 255, .5);
+}
+/*
+ * Affix and center
+ */
+@media ( min-width : 768px) {
+	/* Pull out the header and footer */
+	.masthead {
+		position: fixed;
+		top: 0;
+	}
+	.mastfoot {
+		position: fixed;
+		bottom: 0;
+	}
+	/* Start the vertical centering */
+	.site-wrapper-inner {
+		vertical-align: middle;
+	}
+	/* Handle the widths */
+	.masthead, .mastfoot, .cover-container {
+		width: 100%;
+		/* Must be percentage or pixels for horizontal alignment */
+	}
+}
+
+@media ( min-width : 992px) {
+	.masthead, .mastfoot, .cover-container {
+		width: 700px;
+	}
+}
+
+/* Here's were I coppied */
+.jumbotron-x1 {
+	background-image: url('http://clxxxii.vm-host.net/IMG_0512.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-x1 .container {
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron-x1 h1 {
+	margin-top: 33px;
+	margin-left: 533px;
+	color: #fff;
+	font-size: 48px;
+}
+
+.blackout {
+	color: black;
+}
+
+.jumbotron-x1 p {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.jumbotron-x2 {
+	background-image: url('http://clxxxii.vm-host.net/IMG_0553.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-x2 .container {
+	top: 100px;
+}
+
+.jumbotron-x2 h1 {
+	margin-top: 10px;
+	margin-right: 550px;
+	color: #fff;
+	font-size: 48px;
+}
+
+.jumbotron-x2 p {
+	margin-left: 50px;
+	margin-right: 600px;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.jumbotron-x3 {
+	background-image: url('http://clxxxii.vm-host.net/IMG_0579.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-x3 .container {
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron-x3 h1 {
+	margin-top: 33px;
+	margin-left: 533px;
+	color: #fff;
+	font-size: 48px;
+}
+
+.jumbotron-x3 p {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.jumbotron-footer {
+	background-image: url('http://clxxxii.vm-host.net/IMG_0513.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-footer .container {
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron-footer h1 {
+	margin-top: 33px;
+	margin-left: 533px;
+	color: #fff;
+	font-size: 48px;
+}
+
+.jumbotron-footer p {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}

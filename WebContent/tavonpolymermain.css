@@ -1,0 +1,233 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: #ccc;
+	margin-bottom: 0;
+	font-family: 'RobotoDraft', sans-serif;
+}
+
+[main] {
+	background-color: #f9f9f9;
+}
+
+[drawer] {
+	background-color: #FFFFFF;
+}
+
+core-drawer-panel:not ([narrow] ) #navicon {
+	display: none;
+}
+
+core-header-panel {
+	height: 100%;
+	overflow: auto;
+	margin-bottom: 0;
+	-webkit-overflow-scrolling: touch;
+}
+
+core-scroll-header-panel {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+}
+
+/* background for toolbar when it is at its full size  
+	background-image: url('http://clxxxii.vm-host.net/IMG_0512.jpg');
+background-image: url(http://clxxxii.vm-host.net/3-wallpaper.jpg);
+*/
+core-scroll-header-panel::shadow #headerBg {
+	height: 100%;
+	/* for latest browsers */
+	/* fallback for older browsers */
+	background-image: url(http://clxxxii.vm-host.net/DSC_0086.jpg);
+	background-size: 100% auto;
+	vertical-align: top;
+	text-align: center;
+}
+/* background for toolbar when it is condensed */
+.jumbotron-x1 {
+	background-image: url('http://clxxxii.vm-host.net/IMG_0512.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-x1 .container {
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron-x1 h1 {
+	margin-top: 33px;
+	margin-left: 533px;
+	color: #fff;
+	font-size: 48px;
+}
+
+.blackout {
+	color: black;
+}
+
+.jumbotron-x1 p {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.jumbotron-x2 {
+	background-image: url('http://clxxxii.vm-host.net/IMG_0553.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-x2 .container {
+	top: 100px;
+}
+
+.jumbotron-x2 h1 {
+	margin-top: 10px;
+	margin-right: 550px;
+	color: #fff;
+	font-size: 48px;
+}
+
+.jumbotron-x2 p {
+	margin-left: 50px;
+	margin-right: 600px;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.jumbotron-x3 {
+	background-image: url('http://clxxxii.vm-host.net/IMG_0579.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-x3 .container {
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron-x3 h1 {
+	margin-top: 33px;
+	margin-left: 533px;
+	color: #fff;
+	font-size: 48px;
+}
+
+.jumbotron-x3 p {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.jumbotron-footer {
+	background-image: url('http://clxxxii.vm-host.net/IMG_0513.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-footer .container {
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron-footer h1 {
+	margin-top: 33px;
+	margin-left: 533px;
+	color: #fff;
+	font-size: 48px;
+}
+
+.jumbotron-footer p {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+core-scroll-header-panel::shadow #condensedHeaderBg {
+	background-color: black;
+	height: 100%;
+}
+
+.title {
+	-webkit-transform-origin: 0;
+	transform-origin: 0;
+	font-size: 40px;
+}
+
+core-toolbar {
+	background: #484848;
+	color: white;
+	overflow: auto;
+	height: 100%;
+	fill: #f1f1f1;
+	background-color: transparent;
+	-webkit-overflow-scrolling: touch;
+}
+
+core-header-panel[mode=cover]::shadow #mainContainer {
+	left: 180px;
+}
+
+.content {
+	padding: 8px;
+}
+
+#tabs {
+	width: 100%;
+	margin: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-transform: uppercase;
+}
+
+.icon-smaller {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 0;
+	width: 28px;
+	height: 30px;
+	color: #9aed00;
+}
+
+.icon-smaller-text {
+	width: 25px;
+	height: 30px;
+	color: #9aed00;
+}
+
+.core-icon circle {
+	fill: #0b50bf;
+}
+
+.core-icon circle first-child {
+	fill: #66bbff;
+}
+
+.core-icon circle last-child {
+	fill: #0083ff;
+}
+
+@media ( min-width : 481px) {
+	#tabs {
+		width: 200px;
+	}
+	.container {
+		width: 400px;
+	}
+}

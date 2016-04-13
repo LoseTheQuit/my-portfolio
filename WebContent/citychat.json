@@ -1,0 +1,74 @@
+{
+    "feed": [
+        {
+            "id": 1,
+            "name": "Atlanta",
+            "image": "http://i.huffpost.com/gen/1716876/thumbs/o-ATLANTA-TRAFFIC-facebook.jpg",
+            "status": "\"Enter here to start chatting.\"",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/dubchat.png",
+            "timeStamp": "1403375851930",
+            "url": null
+        },
+        
+        
+        {
+            "id": 2,
+            "name": "Chicago",
+            "image": "http://www.sagaftra.org/files/sag/branch_photos/chicago_banner.jpg",
+            "status": "30 years of Cirque du Soleil's best photos",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/dubchat.png",
+            "timeStamp": "1403375851930",
+            "url": "http://ti.me/1qW8MLB"
+        },
+        
+          {
+            "id": 3,
+            "name": "Los Angelos",
+            "image": "http://www.wordexpress.net/wp-content/uploads/2013/10/Los-Angeles.jpg",
+            "status": "A team of Austrian scientists has developed a laser system that causes fruit flies to dance.",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/dubchat.png",
+            "timeStamp": "1403375851930",
+            "url": "http://dsc.tv/xmMxD"
+        },
+        
+        
+        {
+            "id": 4,
+            "name": "Houston",
+            "image": "http://media-cdn.tripadvisor.com/media/photo-s/04/bf/13/3c/inn-at-the-ballpark.jpg",
+            "status": "Android Sliding Menu using Navigation Drawer",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/dubchat.png",
+            "timeStamp": "1403375851930",
+            "url": "http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"
+        },
+        
+        {
+            "id": 5,
+            "name": "Miami",
+             "image": "http://i.huffpost.com/gen/1477351/thumbs/o-SKYRISE-MIAMI-OBSERVATION-TOWER-facebook.jpg",
+            "status": "That some achieve great success, is proof to all that others can achieve it as well",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/dubchat.png",
+            "timeStamp": "1403375851930",
+            "url": null
+        },  
+        {
+            "id": 6	,
+            "name": "Las Vegas",
+            "image": "http://www.tinaalberino.com/wp-content/uploads/2014/09/vegas-burj-al-arab.jpg",
+            "status": "\"The Beast\" KTM 1290 Super Duke",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/dubchat.png",
+            "timeStamp": "1403375851930",
+            "url": ""
+        },
+        {
+            "id": 7,
+            "name": "New York",
+            "image": "http://www.burgessyachts.com/media/adminforms/locations/n/e/new_york_1.jpg",
+            "status": "Weâ€™re assembling riders of every style, bike, and passion. If you ride with conviction, ride with us. You have 24 days to get ready for World Ride. Prepare by visiting:",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/dubchat.png",
+            "timeStamp": "1403375851930",
+            "url": "http://bit.ly/1wmBWaN"
+        } 
+   
+    ]
+}

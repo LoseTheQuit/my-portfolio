@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>clxxxii</title>
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="apple-mobile-web-app-capable" content="yes">
+    <meta charset="mobile-web-app-capable" content="yes">
+
+    <script src="../components/webcomponentsjs/webcomponents.js">
+    </script>
+    <script src="app.js">
+    </script>
+
+    <!-- Polymer imports -->
+    <link rel="stylesheet" href="polymer.css">
+    <link rel="import" href="elements.html">
+    <!-- Polymer imports -->
+
+    <!-- Bootstrap imports -->
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="othermain.css">
+    <!-- Bootstrap imports -->
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            background-color: #E5E5E5;
+            font-family: 'RobotoDraft', sans-serif;
+        }
+        
+        @media (min-width: 481px) {
+            #tabs {
+                width: 200px;
+            }
+            .container {
+                width: 400px;
+            }
+        }
+    </style>
+
+</head>
+
+<body fullbleed>
+
+
+    <template is="auto-binding" id="app">
+
+        <core-drawer-panel rightdrawer id="drawerPanel">
+
+            <core-header-panel drawer flex>
+                <core-toolbar>Menu</core-toolbar>
+
+                <core-menu selected="{{page}}" valueattr="data-route" route="home">
+                    <core-item>
+                        <a href="/source/polyfilled.html">Home</a>
+                    </core-item>
+                    <core-item>
+                        <a href="/source/polyfilled.html">Portfolio</a>
+                    </core-item>
+                    <core-item>
+                        <a href="/source/polyfilled.html">Contact</a>
+                    </core-item>
+                </core-menu>
+
+            </core-header-panel>
+
+
+            <core-header-panel main flex mode="waterfall-tall">
+
+                <!-- mode="waterfall-tall"  -->
+                <core-toolbar>
+
+                    <paper-tabs id="tabs" selected="all" class="bottom" self-end flex>
+
+                        <paper-menu-button>
+                            <core-icon-button core-drawer-toggle icon="menu">
+                            </core-icon-button>
+                        </paper-menu-button>
+
+                        <paper-tab name="favorites">Apps</paper-tab>
+                        <paper-tab name="all">clxxxii</paper-tab>
+                        <paper-tab name="resume">Resume</paper-tab>
+
+
+                        <paper-menu-button>
+                            <paper-icon-button raised icon="more-vert">
+                            </paper-icon-button>
+                            <paper-dropdown class="dropdown" halign="right">
+                                <core-menu class="menu">
+                                    <paper-item>About</paper-item>
+                                    <paper-item>Settings</paper-item>
+                                    <paper-item>Feedback</paper-item>
+                                </core-menu>
+                            </paper-dropdown>
+                        </paper-menu-button>
+
+                    </paper-tabs>
+
+                </core-toolbar>
+
+
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1>clxxxii</h1>
+                        <p>Innovative apps, Innovative ideas.</p>
+                        <a href="/starter/polymerTrans.html">Learn More</a>
+
+
+                    </div>
+                </div>
+
+
+                <google-map lat="37.77493" lng="-122.41942">
+
+                    <google-map-marker lat="37.78" lng="-122.41" title="SF!" draggable="true">
+                    </google-map-marker>
+                    <google-map-marker lat="37.779" lng="-122.3892" title="Go Giants" draggable="true">
+                    </google-map-marker>
+                </google-map>
+
+                <div class="content">
+                    <!-- TODO -->
+                    Your own page: {{page}}
+                    <paper-progress class="bottom fit" value="30px"></paper-progress>
+
+                    <polymer-element name="x-foo" noscript>
+                        <template>
+                            <h1>Polymer says Hi! Again</h1>
+                        </template>
+                    </polymer-element>
+                    <x-foo></x-foo>
+
+                    <xl-foo></xl-foo>
+
+                    <div class="widthOhh">
+                        <div class="learn-more">
+                            <div class="container-fluid">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+
+
+                                        <core-icon-button icon="custom-icons:fancy-circles"> </core-icon-button>
+
+                                        <h3>Web Developer</h3>
+                                        <p>With a strong background in SEO, I've had a smooth transition from mobile to web development.</p>
+                                        <p><a href="#">See more work.</a>
+                                        </p>
+                                    </div>
+
+
+                                    <div class="col-md-4">
+                                        <h3>Android Application Developer</h3>
+                                        <p>Over 3 years of experience in planning, writing and developing mobile applications.</p>
+                                        <p><a href="#">Browse apps.</a>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <h3>Graphic Designer</h3>
+                                        <p>I've been a photoshop connoisseur for over 5 years.</p>
+                                        <p><a href="#">Learn about trust at Airbnb</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- it ends here! -->
+                    <script>
+                        var tabs = document.querySelector('paper-tabs');
+                        var list = document.querySelector('post-list');
+
+                        tabs.addEventListener('core-select', function () {
+                            list.show = tabs.selected;
+                        })
+                        tabs.addEventListener('core-select', function () {
+                            console.log("Selected:" + tabs.selected);
+                        });
+                    </script>
+
+
+
+
+                    <div class="nav">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-lg-12">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <core-icon-button class="icon-smaller" icon="android"> </core-icon-button>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <core-icon-button class="icon-smaller" icon="polymer"> </core-icon-button>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <core-icon-button class="icon-smaller" icon="android"> </core-icon-button>
+                                            </a>
+                                        </li>
+
+                                        <li class="icon-smaller-text"><a href="#">clxxxii</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <core-icon-button class="icon-smaller" icon="android"> </core-icon-button>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <core-icon-button class="icon-smaller" icon="polymer"> </core-icon-button>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <core-icon-button class="icon-smaller" icon="android"> </core-icon-button>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="widthOhh">
+                        <div class="learn-more">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4">
+
+
+                                        <h3>More Stuff To Format</h3>
+                                        <p>Filet mignon chuck brisket beef ribs pork. Salami jerky rump short loin sirloin filet mignon, alcatra pancetta fatback beef drumstick. Pork belly cupim turducken short ribs capicola frankfurter chuck pig biltong pancetta ribeye drumstick swine shoulder.</p>
+                                        <p><a href="#">See more work.</a>
+                                        </p>
+                                    </div>
+
+
+                                    <div class="col-md-4">
+                                        <h3>Channel 3 </h3>
+                                        <p>Capicola kevin hamburger, chicken jerky sausage meatball ham hock pork belly andouille salami ground round. Picanha sausage alcatra shoulder bacon t-bone brisket, shankle biltong cow ribeye pork chop beef ribs venison pork. Short loin pig chicken venison tongue, boudin salami jerky ham hock.</p>
+                                        <p><a href="#">Browse apps.</a>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <h3>Slow and Steady!</h3>
+                                        <p>Capicola short ribs pork belly filet mignon strip steak. Alcatra rump ribeye, kielbasa chicken brisket shankle beef shank. Ribeye meatball turkey cupim, brisket strip steak corned beef sirloin alcatra andouille drumstick shank pastrami picanha pork chop.</p>
+                                        <p><a href="#">Learn about trust at Airbnb</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="neighborhood-guides">
+                            <div class="container-fluid">
+                                <h2>Neighborhood Guides</h2>
+
+                                <p>Not sure where to stay?</p>
+                                <div class="row">
+
+
+                                    <div class="col-md-4">
+
+                                        <div class="thumbnail">
+                                            <img src="http://goo.gl/0sX3jq">
+                                        </div>
+                                        <div class="thumbnail">
+                                            <img src="http://goo.gl/an2HXY">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <div class="thumbnail">
+                                            <img src="https://lh6.ggpht.com/Hthv6ajqPTsKKhc6b4vHbIOtceddr5h4tfiUzFO82o5t48utSB9nEVGXZlp8fnaKMQ=w300">
+                                        </div>
+
+
+                                    </div>
+
+
+                                    <div class="col-md-4">
+
+                                        <div class="thumbnail">
+                                            <img src="http://goo.gl/0Kd7UO">
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </core-header-panel>
+        </core-drawer-panel>
+
+    </template>
+
+
+
+
+
+    <polymer-element name="xl-foo" noscript>
+        <template>
+
+            <!-- Bootstrap imports -->
+            <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+            <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.min.css">
+            <link rel="stylesheet" href="othermain.css">
+            <!-- Bootstrap imports -->
+
+            <h1> 
+            
+                         <div class="neighborhood-guides">
+                            <div class="container-fluid">
+                                <h2>Bacon</h2>
+
+                                <p> Corned beef porchetta bacon bresaola quis mollit pancetta picanha landjaeger fatback kevin beef tri-tip veniam. Shank shoulder ribeye est sint consequat in quis. Deserunt sunt tenderloin beef ribs, cow elit picanha.</p>
+                                <div class="row">
+
+
+                                    <div class="col-md-4">
+
+                                        <div class="thumbnail">
+                                            <img src="http://goo.gl/0sX3jq">
+                                        </div>
+                                        <div class="thumbnail">
+                                            <img src="http://goo.gl/an2HXY">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <div class="thumbnail">
+                                            <img src="https://lh6.ggpht.com/Hthv6ajqPTsKKhc6b4vHbIOtceddr5h4tfiUzFO82o5t48utSB9nEVGXZlp8fnaKMQ=w300">
+                                        </div>
+
+
+                                    </div>
+
+
+                                    <div class="col-md-4">
+
+                                        <div class="thumbnail">
+                                            <img src="http://goo.gl/0Kd7UO">
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+    
+        <div class="neighborhood-guides">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+
+
+                        <h3>More Stuff To Format</h3>
+                        <p>Filet mignon chuck brisket beef ribs pork. Salami jerky rump short loin sirloin filet mignon, alcatra pancetta fatback beef drumstick. Pork belly cupim turducken short ribs capicola frankfurter chuck pig biltong pancetta ribeye drumstick swine shoulder.</p>
+                        <p><a href="#">See more work.</a>
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <h3>Channel 3 </h3>
+                        <p>Capicola kevin hamburger, chicken jerky sausage meatball ham hock pork belly andouille salami ground round. Picanha sausage alcatra shoulder bacon t-bone brisket, shankle biltong cow ribeye pork chop beef ribs venison pork. Short loin pig chicken venison tongue, boudin salami jerky ham hock.</p>
+                        <p><a href="#">Browse apps.</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3>Slow and Steady!</h3>
+                        <p>Capicola short ribs pork belly filet mignon strip steak. Alcatra rump ribeye, kielbasa chicken brisket shankle beef shank. Ribeye meatball turkey cupim, brisket strip steak corned beef sirloin alcatra andouille drumstick shank pastrami picanha pork chop.</p>
+                        <p><a href="#">Learn about trust at Airbnb</a>
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="neighborhood-guides">
+            <div class="container">
+                <h2>Neighborhood Guides</h2>
+
+                <p>Not sure where to stay?</p>
+                <div class="row">
+
+
+                    <div class="col-md-4">
+
+                        <div class="thumbnail">
+                            <img src="http://goo.gl/0sX3jq">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="http://goo.gl/an2HXY">
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <div class="thumbnail">
+                            <img src="https://lh6.ggpht.com/Hthv6ajqPTsKKhc6b4vHbIOtceddr5h4tfiUzFO82o5t48utSB9nEVGXZlp8fnaKMQ=w300">
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="thumbnail">
+                            <img src="http://goo.gl/0Kd7UO">
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        
+    </div></h1>
+        </template>
+    </polymer-element>
+    <script src="app.js">
+    </script>
+    <script src="../page.js-master/page.js">
+    </script>
+</body>
+
+</html>

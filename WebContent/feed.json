@@ -1,0 +1,118 @@
+{
+    "feed": [
+        {
+            "id": 1,
+            "name": "dubchat",
+            "image": "http://clxxxii.vm-host.net/clxxxii/dubchatpreview.png",
+            "status": "\"Enter here to start chatting.\"",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/dubchat.png",
+            "timeStamp": "1403375851930",
+            "url": null
+        },
+        
+        
+        {
+            "id": 2,
+            "name": "Drum Pad 1",
+            "image": "http://clxxxii.vm-host.net/clxxxii/mytai.png",
+            "status": "30 years of Cirque du Soleil's best photos",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/drumpadiconnum1.png",
+            "timeStamp": "1403375851930",
+            "url": "http://ti.me/1qW8MLB"
+        },
+        
+          {
+            "id": 3,
+            "name": "Drum Pad 2",
+            "image": "http://clxxxii.vm-host.net/clxxxii/forfor.png",
+            "status": "A team of Austrian scientists has developed a laser system that causes fruit flies to dance.",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/drumpadiconnum1.png",
+            "timeStamp": "1403375851930",
+            "url": "http://dsc.tv/xmMxD"
+        },
+        
+        
+        {
+            "id": 4,
+            "name": "Drum Pad 3",
+            "image": "http://clxxxii.vm-host.net/clxxxii/heyheyhey.png",
+            "status": "Android Sliding Menu using Navigation Drawer",
+            "profilePic": "http://clxxxii.vm-host.net/clxxxii/drumpadiconnum1.png",
+            "timeStamp": "1403375851930",
+            "url": "http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"
+        },
+        
+        {
+            "id": 5,
+            "name": "New York",
+            "image": null,
+            "status": "That some achieve great success, is proof to all that others can achieve it as well",
+            "profilePic": "http://api.androidhive.info/feed/img/lincoln.jpg",
+            "timeStamp": "1403375851930",
+            "url": null
+        },  
+        {
+            "id": 6,
+            "name": "KTM",
+            "image": "http://api.androidhive.info/feed/img/ktm_1290.jpg",
+            "status": "\"The Beast\" KTM 1290 Super Duke",
+            "profilePic": "http://api.androidhive.info/feed/img/ktm.png",
+            "timeStamp": "1403375851930",
+            "url": ""
+        },
+        {
+            "id": 7,
+            "name": "Harley-Davidson",
+            "image": "http://api.androidhive.info/feed/img/harley_bike.jpg",
+            "status": "Weâ€™re assembling riders of every style, bike, and passion. If you ride with conviction, ride with us. You have 24 days to get ready for World Ride. Prepare by visiting:",
+            "profilePic": "http://api.androidhive.info/feed/img/harley.jpg",
+            "timeStamp": "1403375851930",
+            "url": "http://bit.ly/1wmBWaN"
+        },
+        {
+            "id": 8,
+            "name": "Rock & Girl",
+            "image": "http://api.androidhive.info/feed/img/rock.jpg",
+            "status": "A long time back...",
+            "profilePic": "http://api.androidhive.info/feed/img/rock_girl.jpg",
+            "timeStamp": "1403375851930",
+            "url": ""
+        },
+        {
+            "id": 8,
+            "name": "Gandhi",
+            "image": null,
+            "status": "An eye for an eye will make the whole world blind.",
+            "profilePic": "http://api.androidhive.info/feed/img/gandhi.jpg",
+            "timeStamp": "1403375851930",
+            "url": ""
+        },
+        {
+            "id": 9,
+            "name": "LIFE",
+            "image": "http://api.androidhive.info/feed/img/life_photo.jpg",
+            "status": "In 1965, LIFE photographer Bill Ray spent weeks with the Hells Angels, but his amazing photos never ran in the magazine",
+            "profilePic": "http://api.androidhive.info/feed/img/life.jpg",
+            "timeStamp": "1403375851930",
+            "url": "http://ti.me/1rfcQa4"
+        },
+        {
+            "id": 10,
+            "name": "Shakira",
+            "image": "http://api.androidhive.info/feed/img/shakira_la_la.png",
+            "status": "Download La La La (Brazil 2014) from iTunes:",
+            "profilePic": "http://api.androidhive.info/feed/img/shakira.jpg",
+            "timeStamp": "1403375851930",
+            "url": "http://smarturl.it/FWCalbum?IQid=sh"
+        },
+        {
+            "id": 11,
+            "name": "A. R. rahman",
+            "image": "http://api.androidhive.info/feed/img/ar_bw.jpg",
+            "status": "",
+            "profilePic": "http://api.androidhive.info/feed/img/ar.jpg",
+            "timeStamp": "1403375851930",
+            "url": ""
+        }
+    ]
+}

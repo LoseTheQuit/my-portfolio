@@ -1,0 +1,41 @@
+<link rel="import" href="../../../bower_components/core-iconset-svg/core-iconset-svg.html">
+<link rel="import" href="../../../bower_components/core-icons/av-icons.html">
+<!-- Polymer imports -->
+
+<style>
+    .core-icon circle {
+        fill: #0b50bf;
+    }
+    
+    .core-icon circle first-child {
+        fill: #66bbff;
+    }
+    
+    .core-icon circle last-child {
+        fill: #0083ff;
+    }
+</style>
+<core-iconset-svg class="core-icon" id="custom-icons" iconsize="50">
+    <svg>
+        <defs>
+            <g id="fancy-circles">
+                <circle cx="25" cy="25" r="18" />
+                <circle cx="12" cy="12" r="10" />
+                <circle cx="35" cy="40" r="6" />
+            </g>
+        </defs>
+    </svg>
+
+</core-iconset-svg>
+
+<!-- 
+                      This ID is really important, 
+                       it's the name of my icon set. 
+                        id="custom-icons:fancy-circles"
+                        Custom icon are usually 24px but we are setting it tp 50 
+                        the icon is called "fancy-circles"-->
+
+<core-icon icon="custom-icons:fancy-circles">
+
+
+</core-icon>

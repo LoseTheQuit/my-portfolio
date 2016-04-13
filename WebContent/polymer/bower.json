@@ -1,0 +1,24 @@
+{
+    "name": "polymer-clxxxii-beta",
+    "version": "0.0.0",
+    "authors": [
+    "clxxxii <naomicarr107@gmail.com>"
+  ],
+    "description": "clxxxii",
+    "keywords": [
+    "polymer",
+    "web-components"
+  ],
+    "license": "MIT",
+    "homepage": "http://www.clxxxii.com",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+        "polymer": "~0.8.0"
+    }
+}
