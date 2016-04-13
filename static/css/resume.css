@@ -6251,7 +6251,7 @@ text .section.section-herpero .outer {
 
 .section.section-showcase .showcase-mindsteps {
     background-color: #6fa9bd;
-    background-image: url('showcase-software.png');
+    background-image: url('../img/showcase-software.png');
     background-size: 90% auto;
 }
 
