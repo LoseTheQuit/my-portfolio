@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module("todoListApp")
+angular.module("shell")
 
-.controller('custCtrl', function ($scope) {
-
+.controller('custCtrl', function ($scope, dataService) {
+    console.log("this is inside common");
     $scope.customers = [
 
         {
