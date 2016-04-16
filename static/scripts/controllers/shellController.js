@@ -5,7 +5,8 @@ console.log("this is the shellController");
 angular.module("shell")
 
 .controller('shellController', function ($scope, dataService) {
-    alert("this is another alert once again")
+
+    console.info("this is another alert once again FINALLY GOT IT WORKING!!!")
 
     $scope.helloConsole = dataService.helloConsole;
 
@@ -33,10 +34,10 @@ angular.module("shell")
     $scope.saveTodos = function () {
 
         var filteredTodos = $scope.todos.filter(function (todo) {
-            console.error('no filter found');
+
 
             if (todo.edited) {
-                console.error('no error found');
+                console.info('todo.edited found');
                 return todo;
             };
 

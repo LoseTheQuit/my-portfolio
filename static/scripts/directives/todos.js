@@ -2,10 +2,10 @@
 
 angular.module("todoListApp")
     .directive('todos', function () {
-        return {
 
+        return {
             templateUrl: '/templates/todos.html',
-            controller: 'mainCtrl',
+            controller: 'custCtrl',
             replace: false
         }
 

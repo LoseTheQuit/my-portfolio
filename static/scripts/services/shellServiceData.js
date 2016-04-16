@@ -14,7 +14,7 @@ angular.module("shell")
 
         this.getTodos = function (callback) {
 
-            $http.get('mock/todos.json')
+            $http.get('../mock/todos.json')
 
             .then(callback);
         };

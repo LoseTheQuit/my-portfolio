@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("todoListApp")
+angular.module("shell")
     .controller('mainCtrl', function ($scope, dataService) {
 
         $scope.helloConsole = dataService.helloConsole;
