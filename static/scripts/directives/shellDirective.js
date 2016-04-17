@@ -6,8 +6,8 @@ angular.module("shell")
 
     return {
         templateUrl: '../views/portfolio.html',
-        controller: 'shellController',
-        replace: true
+        controller: 'portfolioController',
+        replace: false
     }
 
 });
