@@ -10,4 +10,22 @@ angular.module("shell")
         }
 
 
+    })
+    .directive('customctrl', function () {
+
+        return {
+            templateUrl: '../templates/custCtrl.html',
+            controller: 'customController',
+            replace: false
+        }
+
+    })
+    .directive('portfolio', function () {
+
+        return {
+            templateUrl: '../views/portfolio.html',
+            controller: 'portfolioController',
+            replace: false
+        }
+
     });

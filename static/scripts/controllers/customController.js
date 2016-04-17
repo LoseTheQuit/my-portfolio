@@ -2,7 +2,7 @@
 
 angular.module("shell")
 
-.controller('custCtrl', function ($scope, dataService) {
+.controller('customController', function ($scope, dataService) {
     console.log("this is inside common");
     $scope.customers = [
 
@@ -28,13 +28,5 @@ angular.module("shell")
         }
 
         ];
-
-    $scope.saySomethingElse = function () {
-
-        //  console.log('The colors!!!');
-
-    };
-
-
 
 });
