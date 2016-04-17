@@ -3,7 +3,7 @@
 console.log("this is the shellController");
 
 angular.module("shell")
-    .controller('shellController', function ($scope, dataService) {
+    .controller('portfolioController', function ($scope, dataService) {
 
         console.info("this is another alert once again FINALLY GOT IT WORKING!!!")
 
