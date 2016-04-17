@@ -4756,7 +4756,7 @@ animation-delay: 1s;
     height: 100%;
     min-height: 1140px;
     z-index: 1;
-    background: url(/img/clouds.png) 0 100% repeat-x;
+    /*    background: url(/img/clouds.png) 0 100% repeat-x;*/
     background-size: 2600px 1140px;
     -webkit-animation: horizontalLoop 160s linear infinite;
     animation: horizontalLoop 160s linear infinite;
