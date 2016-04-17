@@ -34,7 +34,6 @@ angular.module("shell")
 
             var filteredTodos = $scope.todos.filter(function (todo) {
 
-
                 if (todo.edited) {
                     console.info('todo.edited found');
                     return todo;
