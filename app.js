@@ -12,7 +12,7 @@ app.set('port', (process.env.PORT || 5000));
 app.get('/', function (req, res) {
 
     console.log('INCOMING GET REQUEST - Load Template');
-    var html = fs.readFileSync('static/views/index.html');
+    var html = fs.readFileSync('static/views/shell.html');
     res.end(html);
 
 });
