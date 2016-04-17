@@ -30,19 +30,19 @@ app.listen(app.get('port'), function () {
     console.log('\n');
 });
 
-//mongoose.connect('mongodb://localhost/test');
-//
-//
-//var db = mongoose.connection;
-//
-//
-//db.on('error', console.error.bind(console, 'connection error:'));
-//
-//
-//db.once('open', function () {
-//    console.log("connect has been made")
-//        // we're connected!
-//});
-//
-//
-//var mongoConnection = mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/foobar');
+mongoose.connect('mongodb://localhost/test');
+
+
+var db = mongoose.connection;
+
+
+db.on('error', console.error.bind(console, 'connection error:'));
+
+
+db.once('open', function () {
+    console.log("connect has been made")
+        // we're connected!
+});
+
+
+var mongoConnection = mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/foobar');
